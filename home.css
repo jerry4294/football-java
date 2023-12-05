@@ -48,7 +48,13 @@ main {
 section {
     margin-bottom: 40px;
 }
+.even {
+    color: blue;
+}
 
+.odd {
+    color: red;
+}
 /* Adjustments for mobile devices */
 @media (max-width: 600px) {
     header {
