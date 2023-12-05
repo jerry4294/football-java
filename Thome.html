@@ -4,21 +4,22 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/Teamstyle.css">
-    <script src="teamscript.js" defer></script>
+    <link rel="stylesheet" href="Tshome.css">
+    <script src="Tjhome.js" defer></script>
     <title>Team -Club of Football Khalsa </title>
 </head>
 
 <body>
     <header>
-            <h1>Club Football Khalsa</h1>
-            <nav>
-                <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Team.html">Team</a></li>
-                    <li><a href="About.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
-            </nav>
+        <h1>Club Football Khalsa</h1>
+        <nav>
+            <ul>
+                <li><a href="home.html" id="home-link">Home</a></li>
+                <li><a href="Thome.html" id="team-link">Team</a></li>
+                <li><a href="Ahome.html" id="about-link">About Us</a></li>
+                <li><a href="Chome.html" id="contact-link">Contact</a></li>
+            </ul>
+        </nav>
     </header>
 
     <main>
@@ -66,23 +67,26 @@
                   </tr>
                 </table>
               </form>
-
         </section>
+
         <section>
             <h3> Head Coach and Team Manager</h3>
             <figure>
-                <img id="coach" src="images/jashanpink.jpg" alt="Coach" >
+                <img id="coach" src="jashanpink.jpg" alt="Coach">
                 <figcaption>Coach Of Khalsa Club of Football</figcaption>
             </figure>
 
             <h3>Our Mission</h3>
             <p>To develop the next wave of football talent by offering superior instruction, knowledgeable guidance, and an obvious route to success. Our objective is to remove obstacles from players' paths and launch them onto the world football scene.</p>
         </section>
+
+        <!-- For Loop: Ordered List -->
+        <ol id="numbers"></ol>
     </main>
 
     <footer>
-        <p>&copy; 2023 Club of Football Khalsa. All rights reserved.</p>
-    </footer>
+            <p>&copy; <span id="current-year"></span> Club of Football Khalsa. All rights reserved.</p>
+     </footer>
 </body>
 
 </html>
