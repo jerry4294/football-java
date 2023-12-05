@@ -4,8 +4,8 @@
 <head>
     <meta charset="UTF-8">
     <meta name="viewport" content="width=device-width, initial-scale=1.0">
-    <link rel="stylesheet" href="styles/aboutstyle.css">
-    <script src="aboutscript.js" defer></script>
+    <link rel="stylesheet" href="Ashome.css">
+    <script src="Ajhome.js" defer></script>
     <title>About Us -Club of Football Khalsa </title>
 </head>
 
@@ -14,10 +14,11 @@
             <h1>Club Football Khalsa</h1>
             <nav>
                 <ul>
-                    <li><a href="index.html">Home</a></li>
-                    <li><a href="Team.html">Team</a></li>
-                    <li><a href="About.html">About Us</a></li>
-                    <li><a href="contact.html">Contact</a></li>
+                    <li><a href="home.html" id="home-link">Home</a></li>
+                    <li><a href="Thome.html" id="team-link">Team</a></li>
+                    <li><a href="Ahome.html" id="about-link">About Us</a></li>
+                    <li><a href="Chome.html" id="contact-link">Contact</a></li>
+            </nav>
             </nav>
     </header>
     <main>
@@ -38,11 +39,16 @@
 
             <p>Come along on this thrilling journey with Khalsa Club of Football as we transform football in Alberta. Join Us  ,active football family if you're an aspiring player or just a football fan. Let's begin a new chapter of football greatness together!</p>
         </section>
+        <button id="btn-counter">Increment Counter</button>
+            <p id="txt-counter">Number: 1</p>
+         <div id="even-odd-container">
+            <p id="even-odd-text">Even/Odd Check</p>
+        </div>
     </main>
 
     <footer>
-        <p> &copy; 2023 Club of Football Khalsa. All rights reserved.</p>
-    </footer>
+            <p>&copy; <span id="current-year"></span> Club of Football Khalsa. All rights reserved.</p>
+     </footer>
 </body>
 
 </html>
