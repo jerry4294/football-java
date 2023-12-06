@@ -1,4 +1,5 @@
-//* Reset some default styles */
+@import url('https://fonts.googleapis.com/css2?family=Roboto&display=swap');
+/* Reset some default styles */
 body, h1, h2, h3, p, ul, figure {
     margin: 0;
     padding: 0;
