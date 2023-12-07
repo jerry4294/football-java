@@ -50,6 +50,15 @@ document.addEventListener("DOMContentLoaded", function () {
         alert('Message sent!');
   
     }
+     // Add hover event listener for submit button
+    submitButton.addEventListener("mouseover", function () {
+        this.innerText = "Are you sure you want to submit?";
+    });
+
+    // Add mouseout event listener for submit button
+    submitButton.addEventListener("mouseout", function () {
+        this.innerText = "Submit";
+    });
     
     // Footer with Current Year
     const currentYear = new Date().getFullYear();
