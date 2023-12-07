@@ -63,6 +63,14 @@ document.addEventListener("DOMContentLoaded", function () {
         listItem.textContent = i % 2 === 0 ? 'Even' : 'Odd';
         numbersList.appendChild(listItem);
     }
+     submitButton.addEventListener("mouseover", function () {
+        this.value = "Are you sure you want to submit?";
+    });
+
+    // Add mouseout event listener for submit button
+    submitButton.addEventListener("mouseout", function () {
+        this.value = "Submit";
+    });
      // Footer with Current Year
     const currentYear = new Date().getFullYear();
     document.getElementById('current-year').innerText = currentYear;
